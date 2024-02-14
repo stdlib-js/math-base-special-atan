@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-atan/tags). For example,
+
+```javascript
 import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@v0.2.0-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ v = atan( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@v0.2.0-deno/mod.js';
+import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@deno/mod.js';
 
 var x = linspace( -1000.0, 1000.0, 100 );
 
