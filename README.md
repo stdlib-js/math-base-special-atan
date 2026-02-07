@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@deno/mod.js';
+import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@v0.2.4-deno/mod.js';
 ```
 
 #### atan( x )
@@ -76,7 +76,7 @@ v = atan( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@deno/mod.js';
+import atan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atan@v0.2.4-deno/mod.js';
 
 var x = uniform( 100, -1000.0, 1000.0, {
     'dtype': 'float64'
